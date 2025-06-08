@@ -4,7 +4,6 @@ This project features a responsive smartphone ecommerce website with dynamic pro
 
  🌐 Live Demo
 - Frontend: https://oruphones-9b4o-4o5eowzoi-tejasree-bheemarasettys-projects.vercel.app
-
 - Backend API: https://oruphone-backend.onrender.com
 - Local host  frontend runs at:http://localhost:3000
 - backend runs at:http://localhost:5000/api/products
@@ -42,6 +41,7 @@ Device type
 Scroll depth
 Screen resolution
 Date/time
+
 📝 Author
 👩‍💻 Bheemarasetty Tejasree
 Internship: ORU Phones Full Stack Development Program (June 2025)
