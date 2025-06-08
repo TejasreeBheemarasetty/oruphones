@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+– Ecommerce Web Application with User Tracking
+A full-stack ecommerce project built during the ORU Phones Full Stack Development Internship.
+This project features a responsive smartphone ecommerce website with dynamic product pages, user behavior tracking, an admin dashboard, and deployment using modern technologies.
 
-## Getting Started
+ 🌐 Live Demo
+- Frontend: https://oruphones-9b4o-4o5eowzoi-tejasree-bheemarasettys-projects.vercel.app
 
-First, run the development server:
+- Backend API: https://oruphone-backend.onrender.com
+- Local host  frontend runs at:http://localhost:3000
+- backend runs at:http://localhost:5000/api/products
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📦 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Product listings with images, brand & price
+- Dynamic product info pages using Next.js App Router
+- User activity tracking (scroll %, screen size, browser, etc.)
+- Admin dashboard to view tracker data from MongoDB
+- Fully responsive design
+- Modern frontend and backend separation
+- Live deployed on Vercel and Render
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Tech Stack
+Frontend – [Next.js 13+ (App Router)](https://nextjs.org/)
+- React & TypeScript
+- Tailwind CSS
+- Folder-based routing (app/)
+- Deployed on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Backend – Node.js + Express
+- RESTful API with TypeScript
+- MongoDB Atlas + Mongoose
+- User tracking API (/api/track)
+- Product API (/api/products)
+- Deployed on Render
+ 🗃 Folder Structure
+ecommerce-project/ ├── ecommerce-frontend/   # Next.js frontend │   └── app/, components/, public/ ├── ecommerce-backend/    # Express backend │   └── src/, models/, routes/
 
-## Learn More
+Tracker Example Fields
+Page visited
+Browser & platform
+Device type
+Scroll depth
+Screen resolution
+Date/time
+📝 Author
+👩‍💻 Bheemarasetty Tejasree
+Internship: ORU Phones Full Stack Development Program (June 2025)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
